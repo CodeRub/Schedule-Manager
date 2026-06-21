@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(220, 203, 131);
+}
+
+.Week{
+    display: grid;
+    grid-template-columns: 14.2% repeat(7, 1fr);
+    grid-template-rows: 50px repeat(24, 60px);
+
+    border: 3px solid red;
+    height: 500px;
+    font-weight: bold;
+    font-size: 120%;
+}
