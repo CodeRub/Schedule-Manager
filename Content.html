@@ -8,6 +8,38 @@
 <body>
 
 <h1>Schedule of the week</h1>
+<form>
+
+	<label for="Day">Day</label>
+	<select id="Day" required>
+	<option value="">Select day</option>
+
+		<option>Monday</option>
+		<option>Tuesday</option>
+		<option>Wednesday</option>
+		<option>Thursday</option>
+		<option>Friday</option>
+		<option>Saturday</option>
+		<option>Sunday</option>
+	</select>
+
+<label>Event name</label> <!-- test -->
+<input type="text" id="EN" name="Event Name" required>
+
+
+<label>Event starts at</label>
+<input type="time" id="ET" name="Event Time" min="00:00" max="24:00" required>
+
+<label>Event ends at</label>
+<input type="time" id="ET" name="Event Time" min="00:00" max="24:00">
+
+<label>Description of event</label>
+<textarea id="DE">Description of the event</textarea>
+
+<button>Add event</button>
+
+</form>
+
 
 <div class="Week">
 	<div class="Day">Monday</div>
