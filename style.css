@@ -2,6 +2,19 @@ body{
     background-color: rgb(220, 203, 131);
 }
 
+#EN{
+    border-radius: 10px;
+}
+
+#ED{
+     border-radius: 10px;
+}
+
+#ET{
+     border-radius: 10px;
+}
+
+
 .Week{
     display: grid;
     grid-template-columns: 14.2% repeat(7, 1fr);
