@@ -1,7 +1,7 @@
 body{
     background-color: rgb(220, 203, 131);
 }
-
+/* Buttons go here */
 #EN{
     border-radius: 10px;
 }
@@ -13,15 +13,22 @@ body{
 #ET{
      border-radius: 10px;
 }
-
+/* /Buttons*/
 
 .Week{
     display: grid;
-    grid-template-columns: 14.2% repeat(7, 1fr);
-    grid-template-rows: 50px repeat(24, 60px);
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(24, 60px);
+
+    text-align: center;
 
     border: 3px solid red;
     height: 500px;
     font-weight: bold;
     font-size: 120%;
+}
+
+div{
+    border: 4px solid green;
+
 }
