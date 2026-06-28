@@ -8,7 +8,7 @@
 <body>
 
 <h1>Schedule of the week</h1> <!-- I plan to eventually have a month schedule and then a year! -->
-<form>
+<form id="WF">
 
 	<label for="Day">Day</label>
 	<select id="Day" required>
@@ -23,20 +23,20 @@
 		<option>Sunday</option>
 	</select>
 
-<label>Event name</label> <!-- Name of the event goes here, after more of my code is buildt i plan to swap this out for a searchable index of past event's too -->
-<input type="text" id="EN" name="Event Name" required>
+	<label>Event name</label> <!-- Name of the event goes here, after more of my code is buildt i plan to swap this out for a searchable index of past event's too -->
+	<input type="text" id="EN" name="Event Name" required>
 
 
-<label>Event starts at</label>
-<input type="time" id="ET" name="Event Time" min="00:00" max="24:00" required>
+	<label>Event starts at</label>
+	<input type="time" id="ETS" name="Event Time" min="00:00" max="24:00" required>
 
-<label>Event ends at</label>
-<input type="time" id="ET" name="Event Time" min="00:00" max="24:00">
+	<label>Event ends at</label>
+	<input type="time" id="ETE" name="Event Time" min="00:00" max="24:00">
 
-<label>Description of event</label><!-- Some event's need a little description, i plan to eventually hide this behind a button that way it looks nicer -->
-<textarea id="DE">Description of the event</textarea>
+	<label>Description of event</label><!-- Some event's need a little description, i plan to eventually hide this behind a button that way it looks nicer -->
+	<textarea id="DE">Description of the event</textarea>
 
-<button>Add event</button>
+	<button>Add event</button>
 
 </form>
 

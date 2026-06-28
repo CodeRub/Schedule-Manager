@@ -1,2 +1,30 @@
 
-//
+const WE = []; //Week Events
+
+const form = document.getElementById("WF");
+
+form.addEventListener("submit", function(Event) {
+    event.preventDefault();
+
+    const ES {
+        title: document.getElementById("EN").value,
+        day: document.getElementById("Day").value,
+        start: document.getElementById("ETS").value,
+        end: document.getElementById("ETE").value,
+        description: document.getElementById("DE").value
+    };
+
+    WE.push(ES);
+
+    DisplaySchedule();
+
+    form.reset();
+
+});
+
+
+DisplaySchedule() {
+
+    
+}
+
