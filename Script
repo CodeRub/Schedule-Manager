@@ -6,7 +6,7 @@ const form = document.getElementById("WF");
 form.addEventListener("submit", function(Event) {
     event.preventDefault();
 
-    const ES {
+    const ES = {
         title: document.getElementById("EN").value,
         day: document.getElementById("Day").value,
         start: document.getElementById("ETS").value,
@@ -23,8 +23,8 @@ form.addEventListener("submit", function(Event) {
 });
 
 
-DisplaySchedule() {
+DisplaySchedule() = {
 
-    
+
 }
 
